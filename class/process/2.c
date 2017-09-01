@@ -1,0 +1,10 @@
+#include"header.h"
+main()
+{
+printf("hello...\n");
+printf("GETPID::%d\n",getpid());
+printf("GET--PPID::%d\n",getppid());
+system("./1");
+printf("hiii..\n");
+while(1);
+}
